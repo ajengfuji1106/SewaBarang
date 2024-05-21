@@ -1,0 +1,494 @@
+.panduan {
+  margin: 0;
+  width: 376px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: poppins;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.labels {
+  width: 756px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.pilih-topik-sesuai {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-17xl);
+  line-height: 47px;
+  font-weight: 700;
+  font-family: poppins;
+  color: var(--foundation-blue-normal);
+}
+.titles {
+  width: 788px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+  max-width: 100%;
+}
+.headers,
+.searchbar-child {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.headers {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-31xl) 0 var(--padding-xl);
+}
+.searchbar-child {
+  height: 120px;
+  width: 380px;
+  position: relative;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-mini);
+  background-color: var(--color-primary);
+  border: 1px solid var(--color-lightgray);
+  display: none;
+}
+.akun-3-icon {
+  height: 83px;
+  width: 113px;
+  object-fit: contain;
+}
+.akun-3-icon,
+.akun-dan-keamanan {
+  position: relative;
+  z-index: 1;
+}
+.category-description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xl) 0 0;
+}
+.searchbar,
+.searchbar-item {
+  width: 380px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-mini);
+  background-color: var(--color-primary);
+  border: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.searchbar {
+  margin: 0 !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base) var(--padding-9xl) var(--padding-mid);
+  gap: var(--gap-10xs);
+}
+.searchbar-item {
+  align-self: stretch;
+  position: relative;
+  display: none;
+}
+.pembayaran-1-icon {
+  height: 118.8px;
+  width: 125px;
+  position: relative;
+  object-fit: contain;
+  z-index: 1;
+}
+.pembayaran {
+  position: relative;
+  display: inline-block;
+  min-width: 122px;
+  z-index: 1;
+}
+.pembayaran-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-26xl) 0 0;
+}
+.searchbar-inner,
+.searchbar1 {
+  width: 380px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-mini);
+  background-color: var(--color-primary);
+  border: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.searchbar1 {
+  margin: 0 !important;
+  position: absolute;
+  top: 0;
+  left: 411px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xl) var(--padding-12xs-2);
+  gap: var(--gap-10xs);
+}
+.searchbar-inner {
+  height: 120px;
+  position: relative;
+  display: none;
+}
+.penggelapan-1-icon {
+  height: 101.5px;
+  width: 80px;
+  position: relative;
+  object-fit: contain;
+  z-index: 1;
+}
+.penipuan-penggelapan {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.penipuan-penggelapan-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xl) 0 0;
+  box-sizing: border-box;
+  min-width: 135px;
+}
+.rectangle-div,
+.searchbar2 {
+  width: 380px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-mini);
+  background-color: var(--color-primary);
+  border: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.searchbar2 {
+  margin: 0 !important;
+  position: absolute;
+  top: 0;
+  left: 822px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) var(--padding-sm) var(--padding-5xs)
+    var(--padding-31xl);
+  gap: var(--gap-8xl);
+}
+.rectangle-div {
+  height: 120px;
+  position: relative;
+  display: none;
+}
+.pengembalian-1-icon {
+  height: 113px;
+  width: 113px;
+  object-fit: contain;
+}
+.pengembalian-1-icon,
+.pengembalian-dana {
+  position: relative;
+  z-index: 1;
+}
+.pengembalian-dana-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-28xl) 0 0;
+}
+.searchbar-child1,
+.searchbar3 {
+  width: 380px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-mini);
+  background-color: var(--color-primary);
+  border: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.searchbar3 {
+  margin: 0 !important;
+  position: absolute;
+  top: 180px;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) var(--padding-9xl) var(--padding-11xs);
+  gap: var(--gap-10xs);
+}
+.searchbar-child1 {
+  height: 120px;
+  position: relative;
+  display: none;
+}
+.informasi-1-icon {
+  height: 93.6px;
+  width: 100px;
+  object-fit: contain;
+}
+.informasi-1-icon,
+.informasi-umum {
+  position: relative;
+  z-index: 1;
+}
+.informasi-umum-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-18xl) 0 0;
+}
+.searchbar-child2,
+.searchbar4 {
+  width: 380px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-mini);
+  background-color: var(--color-primary);
+  border: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.searchbar4 {
+  margin: 0 !important;
+  position: absolute;
+  top: 180px;
+  left: 411px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xs) var(--padding-22xl) var(--padding-xs);
+  gap: var(--gap-base);
+}
+.searchbar-child2 {
+  height: 120px;
+  position: relative;
+  display: none;
+}
+.lainnya {
+  position: relative;
+  display: inline-block;
+  min-width: 74px;
+  z-index: 1;
+}
+.lainnya-1-icon,
+.searchbar5 {
+  position: absolute;
+  margin: 0 !important;
+}
+.searchbar5 {
+  width: 380px;
+  top: 180px;
+  left: 822px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-mini);
+  background-color: var(--color-primary);
+  border: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-29xl) var(--padding-xl) var(--padding-22xl)
+    var(--padding-11xl);
+  max-width: 100%;
+}
+.lainnya-1-icon {
+  height: 91px;
+  width: 85px;
+  top: 198px;
+  left: 873px;
+  object-fit: contain;
+  z-index: 2;
+}
+.category-search-bar,
+.faq-categories {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.category-search-bar {
+  height: 300px;
+  flex: 1;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.faq-categories {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-18xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--body-18-bd-size);
+  color: var(--color-text);
+}
+.frequently-asked-question {
+  margin: 0;
+  width: 376px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: poppins;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.frequently-asked-question-wrapper {
+  width: 756px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.pertanyaan-yang-sering1 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-17xl);
+  line-height: 47px;
+  font-weight: 700;
+  font-family: poppins;
+  color: var(--foundation-blue-normal);
+}
+.frame-div {
+  width: 768px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+  max-width: 100%;
+}
+.headers1 {
+  width: 1166px;
+  flex-direction: row;
+  padding: 0 var(--padding-xl);
+}
+.accordion-list,
+.faq-accordion,
+.headers1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.accordion-list {
+  width: 991px;
+  flex-direction: column;
+  padding: var(--padding-8xs) var(--padding-3xs) var(--padding-8xs) 0;
+  gap: var(--gap-xl);
+}
+.faq-accordion {
+  width: 1179px;
+  flex-direction: row;
+  padding: 0 var(--padding-xl);
+  text-align: left;
+  font-size: var(--body-18-bd-size);
+  color: var(--foundation-blue-normal);
+}
+.faq-headers {
+  width: 1202px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-86xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--heading3-bold-size);
+  color: var(--foundation-yellow-normal);
+  font-family: var(--body-18-bd);
+}
+@media screen and (max-width: 1125px) {
+  .headers {
+    padding-right: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .pertanyaan-yang-sering1,
+  .pilih-topik-sesuai {
+    font-size: var(--font-size-10xl);
+    line-height: 38px;
+  }
+  .faq-headers {
+    gap: var(--gap-33xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .panduan {
+    font-size: var(--font-size-2xl);
+  }
+  .pilih-topik-sesuai {
+    font-size: var(--font-size-3xl);
+    line-height: 28px;
+  }
+  .searchbar {
+    flex-wrap: wrap;
+  }
+  .pembayaran-1-icon {
+    flex: 1;
+  }
+  .searchbar1 {
+    flex-wrap: wrap;
+  }
+  .penggelapan-1-icon {
+    flex: 1;
+  }
+  .searchbar2 {
+    flex-wrap: wrap;
+  }
+  .pengembalian-1-icon {
+    flex: 1;
+  }
+  .searchbar3,
+  .searchbar4 {
+    flex-wrap: wrap;
+  }
+  .category-search-bar {
+    height: auto;
+    min-height: 300;
+  }
+  .frequently-asked-question {
+    font-size: var(--font-size-2xl);
+  }
+  .pertanyaan-yang-sering1 {
+    font-size: var(--font-size-3xl);
+    line-height: 28px;
+  }
+  .faq-headers {
+    gap: var(--gap-7xl);
+  }
+}
